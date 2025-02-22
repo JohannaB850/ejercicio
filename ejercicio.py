@@ -1,3 +1,5 @@
+import streamlit as st
+
 st.title("Análisis del Dataset Credit")
  
 # Cargar los datos desde GitHub
