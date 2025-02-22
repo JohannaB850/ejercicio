@@ -1,4 +1,6 @@
 import streamlit as st
+import panda as pd
+import seaborn as sns
 
 st.title("Análisis del Dataset Credit")
  
