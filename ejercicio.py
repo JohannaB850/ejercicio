@@ -1,7 +1,7 @@
 st.title("Análisis del Dataset Credit")
  
 # Cargar los datos desde GitHub
-df = pd.read_csv("https://raw.githubusercontent.com/giuliannaac/ejercicio/main/Credit.csv")
+df = pd.read_csv("Credit.csv")
  
 # Eliminar la columna innecesaria
 df.drop(columns=["Unnamed: 0"], inplace=True)
